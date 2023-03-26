@@ -12,7 +12,7 @@ dependencies:
   cupertino_icons: ^1.0.3
   flutter_icons:
     git:
-      url: git://github.com/jibiel/flutter-icons.git
+      url: https://github.com/jibiel/flutter-icons.git
   font_awesome_flutter: ^9.1.0
 
   #*Architecture
@@ -35,7 +35,7 @@ dependencies:
   oktoast: ^3.1.3+1
   flutter_neumorphic:
     git:
-      url: git://github.com/tsvillain/Flutter-Neumorphic.git
+      url: https://github.com/tsvillain/Flutter-Neumorphic.git
 
   animations: ^2.0.1
   carousel_slider: ^4.0.0

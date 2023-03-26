@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return NeumorphicApp(
       navigatorKey: StackedService.navigatorKey,
-      title: 'Shashi Kumar',
+      title: 'Jatin Kumar',
       debugShowCheckedModeBanner: false,
       home: const MainView(),
       themeMode: ((defaultTargetPlatform == TargetPlatform.iOS) ||

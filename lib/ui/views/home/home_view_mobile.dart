@@ -53,7 +53,7 @@ class HomeMobileView extends StatelessWidget {
               style: uiHelpers!.headline,
             ),
             Text(
-              'Shashi Kumar',
+              'Jatin Kumar',
               style: uiHelpers!.headline,
             ),
             const SizedBox(
