@@ -53,8 +53,15 @@ class AboutViewResponsive extends StatelessWidget {
                         ),
                         uiHelpers!.verticalSpaceLow,
                         Text(PersonalDetails.intro,
-                            style: uiHelpers!.body!.copyWith(
-                                color: uiHelpers!.textSecondaryColor)),
+                            style: 
+                            
+                             uiHelpers!.title!.copyWith(
+                  fontSize: 20,
+                  fontFamily: SystemProperties.fontName,
+                  fontWeight: FontWeight.bold),
+            ),
+                            // uiHelpers!.body!.copyWith(
+                            //     color: uiHelpers!.textSecondaryColor)),
                         uiHelpers!.verticalSpaceMedium,
                         Text(
                           'Technical Skills',

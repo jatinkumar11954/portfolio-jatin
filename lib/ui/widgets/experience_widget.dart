@@ -100,7 +100,7 @@ class ExperienceTree extends StatelessWidget {
           width: widthOfTree,
           height: isDisplaySmallDesktop(context)
               ? assignHeight(context: context, fraction: 0.45)
-              : assignHeight(context: context, fraction: 0.35),
+              : assignHeight(context: context, fraction: 0.65),
         ),
       );
     }

@@ -21,10 +21,13 @@ class MyApp extends StatelessWidget {
       title: 'Jatin Kumar',
       debugShowCheckedModeBanner: false,
       home: const MainView(),
-      themeMode: ((defaultTargetPlatform == TargetPlatform.iOS) ||
-              (defaultTargetPlatform == TargetPlatform.android))
-          ? ThemeMode.dark
-          : ThemeMode.light,
+      themeMode: 
+      
+      ThemeMode.dark,
+      // ((defaultTargetPlatform == TargetPlatform.iOS) ||
+      //         (defaultTargetPlatform == TargetPlatform.android))
+      //     ? ThemeMode.dark
+      //     : ThemeMode.light,
       theme: neumorphicLightTheme,
       darkTheme: neumorphicDarkTheme,
     );
