@@ -10,14 +10,15 @@ import 'icons.dart';
 //*Social Media Links
 mixin SocialLinks {
   static const String linkedinUrl =
-      'https://www.linkedin.com/in/shashi-kumar-58ab1b1a4/';
-  static const String mediumLink = 'https://medium.com/@ben75930';
-  static const String twitterLink = 'https://twitter.com/Shashi35744438';
+      'https://www.linkedin.com/in/v-jatin-kumar-a7a02a17b/';
+  static const String mediumLink = 'https://stackoverflow.com/users/10618655/jatinkumar';
+  // static const String mediumLink = 'https://medium.com/@ben75930';
+  static const String twitterLink = 'https://twitter.com/jatinkumar11954';
   static const String githubLink = 'https://github.com/jatinkumar11954';
-  static const String facebookLink = 'https://www.facebook.com/shashiben7997';
+  static const String facebookLink = 'https://www.facebook.com/profile.php?id=100008504957960';
   static const String instagramLink =
-      'https://www.instagram.com/shashikumar7997/';
-  static const String telegramLink = 'https://t.me/shashiben';
+      'https://www.instagram.com/jatinkumar11954/';
+  // static const String telegramLink = 'https://t.me/shashiben';
 }
 
 //*System Defaults
@@ -67,7 +68,8 @@ mixin PersonalDetails {
   ];
   static const String resumeLink =
       'https://drive.google.com/file/d/1NNc2_GjuE8RyIkMFMz3KhwmhFdk2oH5Q/view?usp=share_link';
-  static const String whatsappLink = 'https://wa.me/7997217156';
+  static const String whatsappLink =       'https://www.linkedin.com/in/v-jatin-kumar-a7a02a17b/';
+
   static const List<Technologies> techList = [
     Technologies(icon: TechnologiesIcon.reactJsIcon, name: 'React JS'),
     Technologies(icon: TechnologiesIcon.javaIcon, name: 'Java'),
@@ -87,90 +89,123 @@ mixin PersonalDetails {
             'An ecommerce Application with great ANimations',
             tools: ['Flutter']),
 
+    // Project(
+    //     id: '1',
+    //     type: ['Website'],
+    //     title: 'E Commerce',
+    //     githubLink: 'https://github.com/jatinkumar11954/MERN-ECommerce',
+    //     websiteLink: 'https://nsd-solutions.herokuapp.com/',
+    //     description:
+    //         'An ECommerce application similar to amazon or flipkart where users can buy products,contains admin panel',
+    //     tools: ['Redux', 'Node Js', 'Express Js', 'Mongo DB', 'React Js']),
     Project(
         id: '1',
-        type: ['Website'],
-        title: 'E Commerce',
-        githubLink: 'https://github.com/jatinkumar11954/MERN-ECommerce',
-        websiteLink: 'https://nsd-solutions.herokuapp.com/',
+        type: ['Application'],
+        title: 'carigariapp ',
+        githubLink: 'https://github.com/jatinkumar11954/carigariapp ',
         description:
-            'An ECommerce application similar to amazon or flipkart where users can buy products,contains admin panel',
-        tools: ['Redux', 'Node Js', 'Express Js', 'Mongo DB', 'React Js']),
+            'An E- commerce app for furnitures',
+        tools: ['Flutter','FireBase']),
     Project(
         id: '2',
         type: ['Application'],
-        title: 'Flutter Custom Graph',
-        githubLink: 'https://github.com/jatinkumar11954/flutter_custom_graph',
+        title: 'nutshell',
+        githubLink: 'https://github.com/jatinkumar11954/nutshell',
         description:
-            'Created a flutter package for building customized and aesthetic graphs.Built with the help of custom graphs.',
-        tools: ['Flutter']),
+            'An E- Learning App',
+        tools: ['Flutter','FireBase']),
     Project(
         id: '3',
         type: ['Application'],
-        title: 'Face Mask Detection',
-        githubLink: 'https://github.com/jatinkumar11954/flutter-face-mask-detection',
+        title: 'DeliveryBoy',
+        githubLink: 'https://github.com/jatinkumar11954/DeliveryBoy',
         description:
-            'Mobile Application to detect whether person wears a mask or not.Built with Flutter and tensorflow lite.',
-        tools: ['Flutter', 'Tflite', 'CNN', 'Python']),
+            'A project with real time location feed Tracking of locatioin can be viewed from lidt of device id',
+        tools: ['Flutter', 'FireBase', 'GMaps']),
     Project(
         id: '4',
-        type: ['Website'],
-        title: 'FReMP Stack',
-        githubLink: 'https://github.com/jatinkumar11954/FReMP-Stack',
+        type: ['Others'],
+        title: 'GcpTasks',
+        githubLink: 'https://github.com/jatinkumar11954/GcpTasks',
         description:
-            'Created a simple application to show how to perform crud operations using flask,react and mongo db and includes how to search by name.',
-        tools: ['Flask', 'React', 'Mongo DB', 'Python']),
+            'A Project with all types of commands for GCP Tasks',
+        tools: ['GCP', 'GCloud']),
     Project(
         id: '5',
-        type: ['Opencv'],
-        title: 'Motion Detection Using OpenCv',
-        githubLink: 'https://github.com/jatinkumar11954/Motion-Detection-with-Opencv',
+        type: ['Application'],
+        title: 'Ticket Management App',
+        githubLink: 'https://github.com/jatinkumar11954/ticket',
         description:
-            'Detects motion of an object or a person and draws bounding box over it',
-        tools: ['Python', 'OpenCv']),
+            'A ticket management app',
+              tools: ['Flutter','FireBase']),
     Project(
         id: '6',
-        type: ['Website', 'Application'],
-        title: 'Alarm Managaer',
-        githubLink: 'https://github.com/jatinkumar11954/Flutter-Alarm',
+        type: ['Website'],
+        title: 'WORDPRESS',
+        githubLink: 'https://github.com/jatinkumar11954/WORDPRESS',
         description:
-            'An application to schedule alarms on multiple devices supports for both android and ios,built using mongo db and flutter.',
-        tools: ['Flutter', 'Mongo DB', 'Node Js', 'Express Js']),
-    Project(
-        id: '7',
-        type: ['Application', 'Website'],
-        title: 'Cache With Hive',
-        githubLink: 'https://github.com/jatinkumar11954/Flutter-anime',
-        description:
-            'Application which shows how to cache rest api data,so that user can view data even though he is offline.Presently supports for web, android and ios',
-        tools: ['Flutter', 'Hive']),
-    Project(
-        id: '8',
-        type: ['Application'],
-        title: 'College Fest App',
-        playstoreLink:
-            'https://play.google.com/store/apps/details?id=com.cse.cynosure',
-        githubLink: 'https://github.com/jatinkumar11954/College-Fest-app',
-        description:
-            'Created an app for college fest where users can register for events and get live notifications regarding events and has payment gateway integration.',
-        tools: ['Java', 'Firebase', 'Paytm']),
-    Project(
-        id: '9',
-        type: ['Website', 'Application'],
-        websiteLink: 'https://shashiben.github.io',
-        description:
-            'Created portfolio using flutter,Supports for mac os,windows,linux,web,ios,android',
-        githubLink: 'https://github.com/jatinkumar11954/portfolio',
-        title: 'Portfolio',
-        tools: ['Flutter']),
-    Project(
-        id: '10',
-        type: ['Backend'],
-        title: 'Node Mailer',
-        githubLink: 'https://github.com/jatinkumar11954/node-mailer',
-        description:
-            'Backend for sending mails.Used to add functionality of sending mail without opening any other applications',
-        tools: ['Node JS', 'Email JS', 'Express JS'])
+            'Best and Short solution for wordpress problems',
+              tools: ['Wordpress','HTML','CSS']),
+
+    // Project(
+    //     id: '4',
+    //     type: ['Website'],
+    //     title: 'FReMP Stack',
+    //     githubLink: 'https://github.com/jatinkumar11954/FReMP-Stack',
+    //     description:
+    //         'Created a simple application to show how to perform crud operations using flask,react and mongo db and includes how to search by name.',
+    //     tools: ['Flask', 'React', 'Mongo DB', 'Python']),
+    // Project(
+    //     id: '5',
+    //     type: ['Opencv'],
+    //     title: 'Motion Detection Using OpenCv',
+    //     githubLink: 'https://github.com/jatinkumar11954/Motion-Detection-with-Opencv',
+    //     description:
+    //         'Detects motion of an object or a person and draws bounding box over it',
+    //     tools: ['Python', 'OpenCv']),
+    // Project(
+    //     id: '6',
+    //     type: ['Website', 'Application'],
+    //     title: 'Alarm Managaer',
+    //     githubLink: 'https://github.com/jatinkumar11954/Flutter-Alarm',
+    //     description:
+    //         'An application to schedule alarms on multiple devices supports for both android and ios,built using mongo db and flutter.',
+    //     tools: ['Flutter', 'Mongo DB', 'Node Js', 'Express Js']),
+    // Project(
+    //     id: '7',
+    //     type: ['Application', 'Website'],
+    //     title: 'Cache With Hive',
+    //     githubLink: 'https://github.com/jatinkumar11954/Flutter-anime',
+    //     description:
+    //         'Application which shows how to cache rest api data,so that user can view data even though he is offline.Presently supports for web, android and ios',
+    //     tools: ['Flutter', 'Hive']),
+    // Project(
+    //     id: '8',
+    //     type: ['Application'],
+    //     title: 'College Fest App',
+    //     playstoreLink:
+    //         'https://play.google.com/store/apps/details?id=com.cse.cynosure',
+    //     githubLink: 'https://github.com/jatinkumar11954/College-Fest-app',
+    //     description:
+    //         'Created an app for college fest where users can register for events and get live notifications regarding events and has payment gateway integration.',
+    //     tools: ['Java', 'Firebase', 'Paytm']),
+    // Project(
+    //     id: '9',
+    //     type: ['Website', 'Application'],
+    //     websiteLink: 'https://shashiben.github.io',
+    //     description:
+    //         'Created portfolio using flutter,Supports for mac os,windows,linux,web,ios,android',
+    //     githubLink: 'https://github.com/jatinkumar11954/portfolio',
+    //     title: 'Portfolio',
+    //     tools: ['Flutter']),
+    // Project(
+    //     id: '10',
+    //     type: ['Backend'],
+    //     title: 'Node Mailer',
+    //     githubLink: 'https://github.com/jatinkumar11954/node-mailer',
+    //     description:
+    //         'Backend for sending mails.Used to add functionality of sending mail without opening any other applications',
+    //     tools: ['Node JS', 'Email JS', 'Express JS'])
   ];
   static const List<String> skillsList = [
     'Flutter',

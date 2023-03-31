@@ -157,8 +157,8 @@ class MainView extends HookWidget {
                                     boxShape: const NeumorphicBoxShape.circle(),
                                     padding: const EdgeInsets.all(4),
                                     onTap: () =>
-                                        model.openUrl(SocialLinks.telegramLink),
-                                    child: Icon(ContactIcons.telegramIcon,
+                                        model.openUrl(SocialLinks.mediumLink),
+                                    child: Icon(ContactIcons.stackoverflow,
                                         size: 20,
                                         color: uiHelpers.textPrimaryColor)),
                                 Padding(
