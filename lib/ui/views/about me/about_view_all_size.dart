@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:portfolio/core/models/skill_model.dart';
 
 import '../../../app/configs.dart';
 import '../../../core/utils/ScreenUiHelper.dart';
@@ -9,6 +10,7 @@ import '../../widgets/featured_skill_widget.dart';
 import '../../widgets/skill_widget.dart';
 import '../../widgets/timeline_widget.dart';
 import 'about_view_model.dart';
+import '../../../app/configs.dart';
 
 class AboutViewResponsive extends StatelessWidget {
   final ScreenUiHelper? uiHelpers;
@@ -63,19 +65,38 @@ class AboutViewResponsive extends StatelessWidget {
                             // uiHelpers!.body!.copyWith(
                             //     color: uiHelpers!.textSecondaryColor)),
                         uiHelpers!.verticalSpaceMedium,
+                        uiHelpers!.verticalSpaceMedium,
+                     
+                        
                         Text(
-                          'Technical Skills',
+                          'Certifications',
                           style: uiHelpers!.title!.copyWith(fontSize: 24),
                         ),
                         SizedBox(
-                          width: 70,
+                          width: 75,
                           child: DividerWidget(
-                            width: 70,
+                            width: 75,
                             dividerColor: uiHelpers!.primaryColor,
                           ),
                         ),
                         uiHelpers!.verticalSpaceLow,
-                        const SkillWidget(),
+                        // const FeaturedSkillWidget(),
+                        uiHelpers!.verticalSpaceLow,
+                          Timeline(
+                            indicatorSize: 16,
+                            indicatorColor: uiHelpers!.primaryColor,
+                            lineColor: uiHelpers!.textPrimaryColor,
+                            shrinkWrap: true,
+                            itemGap: 25,
+                            lineGap: 0,
+                            children:  PersonalDetails.certifications.map((answer) => 
+                            CertificationWidget(name: answer.name,
+                                  date: answer.date,
+                                  link: answer.link,)).toList()
+                          ),
+                          
+                            
+                    
                         uiHelpers!.verticalSpaceMedium,
                         Text(
                           'Featured Skills',
@@ -99,6 +120,21 @@ class AboutViewResponsive extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.start,
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
+                           Text(
+                          'Technical Skills',
+                          style: uiHelpers!.title!.copyWith(fontSize: 24),
+                        ),
+                        SizedBox(
+                          width: 70,
+                          child: DividerWidget(
+                            width: 70,
+                            dividerColor: uiHelpers!.primaryColor,
+                          ),
+                        ),
+                          uiHelpers!.verticalSpaceLow,
+                        const SkillWidget(),
+                        
+                        uiHelpers!.verticalSpaceMedium,
                         Text(
                           'Education',
                           style: uiHelpers!.title!.copyWith(fontSize: 24),

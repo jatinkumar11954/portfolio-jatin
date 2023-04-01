@@ -84,30 +84,43 @@ mixin PersonalDetails {
         type: ['Application'],
         title: 'ssAnimate',
         githubLink: 'https://github.com/jatinkumar11954/ssAnimate',
-        // websiteLink: 'https://hostel-app-test.herokuapp.com/login',
+        websiteLink: 'https://play.google.com/store/apps/details?id=com.sooperkart.app&pli=1',
         description:
             'An ecommerce Application with great ANimations',
             tools: ['Flutter']),
 
-    // Project(
-    //     id: '1',
-    //     type: ['Website'],
-    //     title: 'E Commerce',
-    //     githubLink: 'https://github.com/jatinkumar11954/MERN-ECommerce',
-    //     websiteLink: 'https://nsd-solutions.herokuapp.com/',
-    //     description:
-    //         'An ECommerce application similar to amazon or flipkart where users can buy products,contains admin panel',
-    //     tools: ['Redux', 'Node Js', 'Express Js', 'Mongo DB', 'React Js']),
+   
     Project(
         id: '1',
         type: ['Application'],
         title: 'carigariapp ',
         githubLink: 'https://github.com/jatinkumar11954/carigariapp ',
+        websiteLink: 'https://play.google.com/store/apps/details?id=conversionguru.in.carigari',
         description:
             'An E- commerce app for furnitures',
         tools: ['Flutter','FireBase']),
-    Project(
+          Project(
         id: '2',
+        type: ['Website'],
+        title: 'E Commerce',
+        // githubLink: 'https://github.com/jatinkumar11954/MERN-ECommerce',
+        websiteLink: 'https://user.bulkitrade.com/',
+        description:
+            'An ECommerce application similar to amazon or flipkart where users can buy products,contains admin panel',
+        tools: ['Angular', 'Node Js', 'Express Js', 'Mongo DB', 'Azure']),
+           
+    Project(
+        id: '3',
+        type: ['Application'],
+        title: 'AtHome ',
+        // githubLink: 'https://github.com/jatinkumar11954/carigariapp ',
+        websiteLink: 'https://play.google.com/store/apps/details?id=com.athome.client',
+        description:
+            'Similar to an urban comapany ',
+        tools: ['Flutter','FireBase']),
+
+    Project(
+        id: '4',
         type: ['Application'],
         title: 'nutshell',
         githubLink: 'https://github.com/jatinkumar11954/nutshell',
@@ -115,7 +128,7 @@ mixin PersonalDetails {
             'An E- Learning App',
         tools: ['Flutter','FireBase']),
     Project(
-        id: '3',
+        id: '5',
         type: ['Application'],
         title: 'DeliveryBoy',
         githubLink: 'https://github.com/jatinkumar11954/DeliveryBoy',
@@ -123,7 +136,7 @@ mixin PersonalDetails {
             'A project with real time location feed Tracking of locatioin can be viewed from lidt of device id',
         tools: ['Flutter', 'FireBase', 'GMaps']),
     Project(
-        id: '4',
+        id: '6',
         type: ['Others'],
         title: 'GcpTasks',
         githubLink: 'https://github.com/jatinkumar11954/GcpTasks',
@@ -131,7 +144,7 @@ mixin PersonalDetails {
             'A Project with all types of commands for GCP Tasks',
         tools: ['GCP', 'GCloud']),
     Project(
-        id: '5',
+        id: '7',
         type: ['Application'],
         title: 'Ticket Management App',
         githubLink: 'https://github.com/jatinkumar11954/ticket',
@@ -139,14 +152,24 @@ mixin PersonalDetails {
             'A ticket management app',
               tools: ['Flutter','FireBase']),
     Project(
-        id: '6',
+        id: '8',
         type: ['Website'],
         title: 'WORDPRESS',
         githubLink: 'https://github.com/jatinkumar11954/WORDPRESS',
         description:
             'Best and Short solution for wordpress problems',
               tools: ['Wordpress','HTML','CSS']),
-
+             
+    Project(
+        id: '9',
+        type: ['Website'],
+        title: 'Portfolio',
+        githubLink: 'https://github.com/jatinkumar11954/portfolio-jatin',
+        websiteLink: 'https://jatinkumar.co',
+        description:
+            'Best and Short solution for wordpress problems',
+              tools: ['Flutter','Firebase','GitHUb']),
+             
     // Project(
     //     id: '4',
     //     type: ['Website'],
@@ -242,14 +265,15 @@ mixin PersonalDetails {
 "Successfully setup HTTP(S) Load Balancer in front of instance-group; secured access via Identity- Aware-Proxy (IAP);Configured Private Data Fusion and Private Cloud SQL."
         ],
         tools: [
-          'Flutter',
-          'Html',
-          'Css',
-          'JS',
-          'React',
-          'Flask',
-          'Celery',
-          'Mongo DB'
+          'GCP',
+          'Network',
+          'Cloud SQL',
+          'Data Fusion',
+          'Python',
+          'GCP CLient Library',
+          'Storage',
+          'VPC',
+'App Engine'
         ]),
     ExperienceTimeline(
         title: 'Chistats',
@@ -261,10 +285,10 @@ mixin PersonalDetails {
 "Generating detailed Excel spreadsheets that contain information on all VMs in an organization's various projects,  including distribution information by utilizing Python with Pandas and the GCP client library.",
         ],
         tools: [
-          'Flutter',
-          'Firebase',
-          'FreshChat',
-          'Figma'
+         'DevOps',
+          'GCP',
+          'Azure',
+          'AWS'
         ]),
     ExperienceTimeline(
         title: 'Cognizant Technology Solutions',
@@ -275,11 +299,11 @@ mixin PersonalDetails {
 "I followed Scrum methodologies for agile development, actively collaborating with the development team to ensure timely delivery of high-quality code. I have a strong track record of identifying and resolving defects to ensure a seamless user experience."
         ],
         tools: [
-          'Flutter',
-          'Figma'
+          'DevOps',
+          'GCP'
         ]),
     ExperienceTimeline(
-      tools: ['Firebase', 'DialogFlow', 'Agora', 'GCP', 'Node js', 'Mongo'],
+      tools: ['Flutter','Firebase', 'DevOps', 'Agora', 'GCP', 'Node js', 'Mongo'],
       timePeriod: 'Aug 2020 - Feb, 2021',
       title: 'VSMT Solutions',
       position: 'Application Developer',
@@ -291,7 +315,8 @@ mixin PersonalDetails {
     ),
   
     ExperienceTimeline(
-      tools: ['Firebase', 'DialogFlow', 'Agora', 'GCP', 'Node js', 'Mongo'],
+           tools: ['Flutter','Firebase', 'DevOps', 'Agora', 'GCP', 'Node js', 'Mongo'],
+
       timePeriod: 'Mar 2020- Aug, 2020',
       title: 'Prospective Analytics',
       position: 'Application Developer',
@@ -302,7 +327,8 @@ mixin PersonalDetails {
     ),
   
     ExperienceTimeline(
-      tools: ['Firebase', 'DialogFlow', 'Agora', 'GCP', 'Node js', 'Mongo'],
+              tools: ['Flutter','Firebase', 'DevOps', 'Agora', 'GCP', 'Node js', 'Mongo'],
+
       timePeriod: 'Aug, 2019 Feb, 2020',
       title: 'Conversion GURU',
       position: 'Application Developer',
@@ -320,6 +346,13 @@ mixin PersonalDetails {
     SkillModel(name: 'DevOps', percent: 95),
     SkillModel(name: 'Mobile Application Developement', percent: 95),
     SkillModel(name: 'Web Development', percent: 90),
+  ];
+   static   List<CertificationsModel> certifications = [
+    CertificationsModel(name: 'Google Cloud Certified - Professional Cloud Architect',date:'Jan,2023' ,link: 'https://www.credential.net/1cbd81ee-f778-449a-b6aa-89b15f40759c'),
+    CertificationsModel(name: 'Google Cloud Certified - Associate Cloud Engineer',date:'Feb 2022' ,link: 'https://www.credential.net/2dcdca88-82de-4f9e-97ea-92d1007d1b47'),
+    CertificationsModel(name: 'Microsoft Certified: Azure Fundamentals',date:'Nov,2021' ,link: 'https://www.credly.com/badges/51513846-86cd-4272-ad7a-43e010e246f7?source=linked_in_profile'),
+    CertificationsModel(name: 'Red Hat Academy - Enterprise Cloud Solutions',date:'Jan,2021' ,link: 'https://drive.google.com/file/d/1eGhTVQ_BgAtj8-FYsjXTkofURQH71Cpk/view'),
+  
   ];
 
   static const String userName = 'Jatin Kumar';
